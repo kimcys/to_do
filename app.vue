@@ -4,7 +4,7 @@
     <div class="my-20 rounded-md">
 
       <div class="col-span-2 justify-center content-center">
-        <h1 class="font-semibold text-2xl font-mono text-center my-3">To Do List</h1>
+        <h1 class="font-semibold text-2xl font-mono text-center my-3">Warung Pak Ngah Order List</h1>
       </div>
 
       <div class="flex justify-center content-center my-5">
@@ -40,9 +40,9 @@ export default {
 
   setup() {
     const items = ref([
-      { text: 'Hello World', completed: false },
-      { text: 'Attend Coldplay concert', completed: false },
-      { text: 'Food hunt', completed: false },
+      { text: 'Roti Canai x2', completed: false },
+      { text: 'Nasi Lemak Telur Mata x4', completed: false },
+      { text: 'Nasi Goreng Cina x2', completed: false },
     ]);
 
     const newItem = ref('');
